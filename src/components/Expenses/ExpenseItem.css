@@ -16,7 +16,13 @@
   justify-content: flex-start;
   flex: 1;
 }
-
+.expense-item p {
+  color: #3a3a3a;
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+}
 .expense-item h2 {
   color: #3a3a3a;
   font-size: 1rem;

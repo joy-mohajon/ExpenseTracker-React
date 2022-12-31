@@ -73,9 +73,9 @@ const ExpenseFrom = (props) => {
       date: new Date(enterDate),
     };
 
-    setEnterAmount('');
-    setEnterTitle('');
-    setEnterDate('');
+    setEnterAmount("");
+    setEnterTitle("");
+    setEnterDate("");
 
     props.onSaveExpenseData(expenseData);
     // console.log(expenseData);
@@ -110,7 +110,7 @@ const ExpenseFrom = (props) => {
         </div>
       </div>
       <div className="new-expense__actions">
-        <button type="submit">Add Exprese</button>
+        <button type="submit">Add Expense</button>
       </div>
     </form>
   );
